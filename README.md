@@ -1,0 +1,1 @@
+QuickWikiEditor is a Firefox-Add-on wich makes it posible to quickly edit simple things in Wikipediaarticles (or sites in other Wikis), without opening the editpage and with minimal effects to the flow in reading.

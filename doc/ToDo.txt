@@ -1,0 +1,11 @@
+Known problems and improvement wishes.
+
+# improve formating-support:
+## support multible formatings in the from code
+## Support [[foo]]bar
+## Support headings
+# Geschwindigkeitsoptimierung für große Seiten: multipart/form-data
+# divide code
+# clean up code
+# edit view only if edit sucessfull
+# …
