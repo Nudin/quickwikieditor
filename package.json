@@ -5,7 +5,23 @@
   "author": "Michael F. Schönitzer",
   "version": "0.4beta",
   "id": "jid0-hfviyWEDI6edV0BwIzEOoUMbcKI",
-  "preferences": [{"description": "Key-combination to start editor. Allowed modifiers: shift, alt, meta, control & accel. Restart required.", "type": "string", "name": "hotkey", "value": "accel-e", "title": "Hotkey"}, {"title": "Editsummery", "type": "string", "description": "The editsummery to give for the edits. Leave _AUTO_ for automatically generated summary", "value": "_AUTO_", "name": "summary"}],
+  "preferences": [
+  	{ "type": "string",
+  	  "name": "hotkey",
+  	  "title": "Hotkey",
+  	  "description": "Key-combination to start editor. Allowed modifiers: shift, alt, meta, control & accel. Restart required.",
+  	  "value": "accel-e" },
+  	{ "type": "string",
+  	  "name": "summary",
+  	  "title": "Editsummery",
+  	  "description": "The editsummery to give for the edits. Leave _AUTO_ for automatically generated summary",
+  	  "value": "_AUTO_" },
+  	{ "type": "bool",
+  	  "name": "minor",
+  	  "title": "Mark edits as minor",
+  	  "description": "Should the edits done with this tool as minor edits?",
+  	  "value": true }
+  	],
   "license": "GNU General Public License (https://www.gnu.org/licenses/gpl.html)"
 }
  
