@@ -22,6 +22,11 @@
           "name": "minor",
           "title": "Mark edits as minor",
           "description": "Should the edits be marked as minor edits?",
+          "value": true },
+        { "type": "bool",
+          "name": "viewicon",
+          "title": "View Status-icon?",
+          "description": "If checked, a icon in the add-on-bar will show the status. Restart (i. e. disable/enable tool) required.",
           "value": true }
         ],
   "license": "GNU General Public License (https://www.gnu.org/licenses/gpl.html)"
