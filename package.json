@@ -3,7 +3,7 @@
   "fullName": "QuickWikiEditor",
   "description": "Edittool for Wikipedia authors. Simple and fast direct on-page editing of article text sniplets without using the Wikipedia editor.",
   "author": "Michael F. Schönitzer",
-  "version": "0.5beta",
+  "version": "0.5.1beta",
   "id": "jid0-hfviyWEDI6edV0BwIzEOoUMbcKI",
   "preferences": [
         { "type": "string",
