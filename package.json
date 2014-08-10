@@ -3,7 +3,7 @@
   "fullName": "QuickWikiEditor",
   "description": "Edittool for Wikipedia authors. Simple and fast direct on-page editing of article text sniplets without using the Wikipedia editor.",
   "author": "Michael F. Schönitzer",
-  "version": "0.6.5",
+  "version": "0.7",
   "icon": "data/qwe48.png",
   "icon64": "data/qwe64.png",
   "id": "jid0-hfviyWEDI6edV0BwIzEOoUMbcKI",
@@ -27,7 +27,22 @@
           "name": "viewicon",
           "title": "View Status-icon?",
           "description": "If checked, a icon in the add-on-bar will show the status. Restart (i. e. disable/enable tool) required.",
-          "value": true }
+          "value": true },
+        { "type": "menulist",
+          "name": "altfunction",
+          "title": "Function when clicking on icon",
+          "value": 0,
+          "options": [
+            {
+              "value": "0",
+              "label": "Open editpage in new tab"
+            },
+            {
+              "value": "1",
+              "label": "Open watchlist in new tab"
+            }
+          ]
+        }
         ],
   "license": "GNU General Public License (https://www.gnu.org/licenses/gpl.html)"
 }
